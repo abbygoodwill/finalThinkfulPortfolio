@@ -1,16 +1,58 @@
 .masthead h1{
   text-align: center;
   padding: 1em 0;
+  color: white;
+  text-shadow: 1px 1px 1px #000, 4px 4px 5px #383838 ;
+  text-transform: uppercase;
+  font-family: 'Exo 2', sans-serif;
+}
+.masthead {
+  background-image: url('../finalPortfolio/imagesPortfolio/masthead-background.jpeg');
+  background-size: cover;
+  padding: 4em 0;
+
+}
+body{
+  background-color: black;
 }
 .introduction-section {
   text-align: center;
+  background-color: black;
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+
 }
 .location-section {
   text-align: center;
+  background-color: black;
+  color: white;
+  font-family: 'Exo 2', sans-serif;
 }
 .projects-section {
   text-align: center;
+  background-color: black;
+  color: white;
+  font-family: 'Exo 2', sans-serif;
 }
-.foot {
+.three-projects > li {
+    display: inline-block;
+    height: 59px
+}
+.footer {
   text-align:center;
+  background-image: url('../finalPortfolio/imagesPortfolio/masthead-background.jpeg');
+  color: white;
+  padding: 3em 0;
+  font-family: 'Exo 2', sans-serif;
+}
+.social {
+  padding-left: 0;
+  font-family: 'Exo 2', sans-serif;
+}
+a {
+  color:white;
+}
+.social > li {
+    display: inline-block;
+    color: white;
 }
