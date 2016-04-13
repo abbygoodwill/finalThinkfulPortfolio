@@ -1,3 +1,40 @@
+html,body {
+  margin: 0;
+}
+a.anchor {
+    display: block;
+    position: relative;
+    top: -50px;
+    visibility: hidden;
+}
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-image: url('../finalPortfolio/imagesPortfolio/masthead-background.jpeg');
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Exo 2', sans-serif;
+  padding-left: 2em;
+}
+#title {
+  float: left;
+}
+.fixed-nav-bar .links {
+  float: right;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.03em;
+  font-family: 'Exo 2', sans-serif;
+}
+.fixed-nav-bar .links li {
+  display: inline-block;
+  margin-left: 25px;
+  font-family: 'Exo 2', sans-serif;
+  margin-right: 45px;
+}
 .masthead h1{
   text-align: center;
   padding: 1em 0;
@@ -10,33 +47,83 @@
   background-image: url('../finalPortfolio/imagesPortfolio/masthead-background.jpeg');
   background-size: cover;
   padding: 4em 0;
+  border: 0em;
 }
-body{
-  background-color: black;
+body {
+  background-color: #000033;
 }
 .introduction-section {
   text-align: center;
-  color: black;
+  color: white;
   font-family: 'Exo 2', sans-serif;
-  background-color: white;
-
+  background-color: #000033;
+  padding-left: 20em;
+  padding-right: 20em;
+}
+a.ResumeIntroduction {
+  color:white;
 }
 .location-section {
   text-align: center;
-  background-color: white;
-  color: black;
+  background-color: #000033;
+  color: white;
   font-family: 'Exo 2', sans-serif;
+  padding-left: 20em;
+  padding-right: 20em;
 }
-
+.location-section .coloradoState {
+  float: left;
+}
 .projects-section {
   text-align: center;
-  background-color: white;
-  color: black;
+  background-color: #000033;
+  color: white;
   font-family: 'Exo 2', sans-serif;
 }
-.three-projects > li {
+.Hot-Or-Cold > li {
     display: inline-block;
     height: 59px
+  }
+a.LinkHOCA {
+  color: white;
+}
+.Hot-Or-Cold {
+  background-color: #000033;
+  font-family: 'Exo 2', sans-serif;
+  text-align: relative;
+  padding-left: 20em;
+  padding-right: 20em;
+  color:white;
+}
+.ProductFinderAPI > li {
+    display: inline-block;
+    height: 59px;
+}
+a.LinkProductFinderAPI {
+  color: white;
+}
+.ProductFinderAPI {
+  background-color: #000033;
+  font-family: 'Exo 2', sans-serif;
+  text-align: relative;
+  padding-left: 20em;
+  padding-right: 20em;
+  color: white;
+}
+.QuizApp > li {
+    display: inline-block;
+    height: 59px
+}
+a.LinkQuizApp {
+  color: white;
+}
+.QuizApp {
+  background-color: #000033;
+  font-family: 'Exo 2', sans-serif;
+  text-align: relative;
+  padding-left: 20em;
+  padding-right: 20em;
+  color: white;
 }
 .footer {
   text-align:center;
@@ -45,12 +132,12 @@ body{
   padding: 3em 0;
   font-family: 'Exo 2', sans-serif;
 }
+a {
+  color:white;
+  }
 .social {
   padding-left: 0;
   font-family: 'Exo 2', sans-serif;
-}
-a {
-  color:white;
 }
 .social > li {
     display: inline-block;
