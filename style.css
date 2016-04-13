@@ -10,28 +10,28 @@
   background-image: url('../finalPortfolio/imagesPortfolio/masthead-background.jpeg');
   background-size: cover;
   padding: 4em 0;
-
 }
 body{
   background-color: black;
 }
 .introduction-section {
   text-align: center;
-  background-color: black;
-  color: white;
+  color: black;
   font-family: 'Exo 2', sans-serif;
+  background-color: white;
 
 }
 .location-section {
   text-align: center;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   font-family: 'Exo 2', sans-serif;
 }
+
 .projects-section {
   text-align: center;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   font-family: 'Exo 2', sans-serif;
 }
 .three-projects > li {
